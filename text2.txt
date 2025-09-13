@@ -1,0 +1,1 @@
+I have learned how to install git, configure git, clone the github repository into my local desktop and now learning how to make the file created in local desktop visible in my github repo.
