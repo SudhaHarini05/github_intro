@@ -9,4 +9,7 @@ clone -> add -> commit -> push
 If we modified any existing file then we can see M sysmbol 
 so after modifying to reflect changes we need to again perform those 3 steps
 add -> commit -> push
-git add text3.txt -> git commit -m "text3.txt modifed" -> git push origin main
+git add text3.txt -> git commit -m "text3.txt modifed" -> git push origin 
+Now i wanted to delete a file and reflect its changes in the main repo.
+so after deleting i need to perform 3 steps to reflect my changes in the main repo
+add -> commit -> push
