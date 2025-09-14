@@ -1,0 +1,9 @@
+Now i have learned a concept of branching.
+Branches will help us to create a subranch where all the files present in the branch will also copy to subbranch.
+Subbranches are mainly used wnen multiple people want to work on some work so they create subbranches and work on it
+After that they commit changes to the main branch.
+git branch -a list out all the Branches
+git checkout subbranch_name will help us to switch for subbranch
+git diff subbranchname show difference between main branch and subbranch
+git merge subbranchname helps to find difference betweem main and sub Branches
+git push origin main push the changes to main branch from subbranch
