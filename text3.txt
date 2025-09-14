@@ -6,3 +6,7 @@ now we need to push the added code from git copy folder to actual github reposit
 github repo -> git clone
             ->working folder -> staging area ->git clone ->github repo
 clone -> add -> commit -> push
+If we modified any existing file then we can see M sysmbol 
+so after modifying to reflect changes we need to again perform those 3 steps
+add -> commit -> push
+git add text3.txt -> git commit -m "text3.txt modifed" -> git push origin main
