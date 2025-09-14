@@ -1,0 +1,4 @@
+Upto now we learnt how to reflect changes made in local folder to main repo.
+now we will learn how to reflect changes made in main repo to local folder.
+here we use git pull command.
+add file -> create a file -> commit changes -> changes in main repo -> go terminal in vs code -> git pull -> changes will reflect in local folder.
