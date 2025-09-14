@@ -1,0 +1,8 @@
+Now i have learnt how to perform the changes made in local folder to reflect in the main repository. 
+Here when we clone the git hub (git clone) repository in local folder two files will be created 
+1.git copy folder 2.working folder now we need to first add files from working folder to staging area so that our changes will be added successfully (git add filename) 
+now after adding the files into staging area we need move this file from staging area to git copy folder (git commit -m "text3.txt file added")
+now we need to push the added code from git copy folder to actual github repository through this command (git push origin main)
+github repo -> git clone
+            ->working folder -> staging area ->git clone ->github repo
+clone -> add -> commit -> push
