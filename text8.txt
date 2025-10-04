@@ -1,0 +1,5 @@
+To rename a repository we need to first rename the git repo in github.
+Then in our desktop we need to open the folder.
+we need to enter the command git remote set-url origin our new repo link.
+Then it update and sync both our local files and git repo.
+Then we can work as usaual and perform operations like add,commit,push. 
