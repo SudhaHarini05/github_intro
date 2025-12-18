@@ -1,0 +1,87 @@
+📌 Project Title
+StudyRhythm – Learning Consistency Predictor
+
+📖 Project Description
+StudyRhythm is a machine learning–based web application designed to analyze a student’s study behavior and predict the risk of losing learning consistency.
+By observing weekly study patterns such as study frequency, missed days, session duration, and continuity, the system identifies early warning signs of irregular preparation and provides timely feedback.
+
+🎯 Problem It Solves
+Students often lose consistency in their learning routine without realizing it early, which negatively impacts performance and confidence.
+StudyRhythm helps detect early instability in study habits, enabling students to take corrective action before learning outcomes are affected.
+
+🌍 Real-World Relevance
+Supports students in maintaining disciplined study habits
+Useful for coaching centers and self-learning platforms
+Acts as a preventive analytics tool, not a performance evaluator
+Encourages habit awareness through data-driven insights
+
+🧩 Technologies Used
+Frontend - HTML – Collects user input through forms
+CSS – Provides responsive and user-friendly design
+JavaScript – Handles logic, data processing, and ML calculations
+
+Machine Learning
+JavaScript-based machine learning implementation
+Logistic Regression model for risk prediction
+Optional Decision Tree for explainability
+
+🧠 Machine Learning Algorithms Used
+Logistic Regression
+Predicts probability of learning inconsistency
+Classifies users into Low, Medium, or High risk categories
+Lightweight, interpretable, and industry-relevant
+
+(Optional)
+Decision Tree
+Provides rule-based risk classification
+Helps visualize feature importance
+
+📊 Type of Data Used
+Self-generated behavioral dataset
+Weekly study activity records
+No publicly available datasets used, ensuring originality
+
+🗂️ Dataset Features Considered
+Feature	Description
+Study Days per Week	Number of days studied in a week
+Average Study Hours	Average hours studied per day
+Missed Study Days	Days skipped in a week
+Longest Study Streak	Continuous days of study
+Study Session Duration	Length of each study session
+Topic Switching Frequency	Number of topic changes
+Break Frequency	Number of breaks taken
+Consistency Risk Label	Low / Medium / High
+
+⌨️ Input to the System
+The user provides weekly study behavior details such as:
+Study frequency
+Average daily study duration
+Missed study days
+Longest study streak
+Session length
+Topic switching frequency
+
+📤 Output of the System
+Primary Output:
+Learning Consistency Risk Level
+Low Risk
+Medium Risk
+High Risk
+
+Additional Output:
+Short interpretive feedback
+Suggestions to improve study rhythm
+
+⚙️ How the Application Works (Flow)
+User enters study behavior data
+Input data is normalized and processed
+ML model evaluates consistency patterns
+Risk probability is calculated
+Risk category is predicted
+Results are displayed on the dashboard
+
+🧮 ML Logic (Simplified Explanation)
+Positive study behaviors increase consistency score
+Irregular patterns reduce the score
+Feature weights influence the final prediction
+Logistic regression classifies risk levels
